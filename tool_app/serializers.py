@@ -2,7 +2,13 @@ from rest_framework import serializers
 from .models import Tool
 
 
-class ToolSerializer(serializers.ModelSerializer):
+class ToolListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tool
+        fields = ('name', 'version', 'stage')
+
+
+class ToolDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tool
         fields = '__all__'
