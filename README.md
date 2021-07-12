@@ -1,15 +1,15 @@
 Requirements:
 
-  Python 3.9.0
-  Django 3.2.5
-  Django REST Framework 3.12.4
+  - Python 3.9.0
+  - Django 3.2.5
+  - Django REST Framework 3.12.4
 
 
 Installation:
 
 1) Install Python Requirements
    
-   $pip install -r requirements.txt
+   - $pip install -r requirements.txt
    
 2) Run commands:
 
