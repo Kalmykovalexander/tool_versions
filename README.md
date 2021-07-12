@@ -36,6 +36,6 @@ List all objects
 Create object
   http://127.0.0.1:8000/api/tools/tool/create/
 
-Retrieve, update, delete object (<int:pk> = id object)
-  http://127.0.0.1:8000/api/tools/tool/detail/<int:pk>/
+Retrieve, update, delete object (pk = id object)
+  http://127.0.0.1:8000/api/tools/tool/detail/pk/
 
