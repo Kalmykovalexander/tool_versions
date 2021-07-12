@@ -13,16 +13,16 @@ Installation:
    
 2) Run commands:
 
-   - Create initial database sqlite:
-     $python manage.py makemigrations
-     $python manage.py migrate
+   Create initial database sqlite:
+     - $python manage.py makemigrations
+     - $python manage.py migrate
     
-    - Create user:
-    $ python manage.py createsuperuser
+    Create user:
+    - $ python manage.py createsuperuser
    
 3) Run the Server
 
-   $python manage.py runserver
+   - $python manage.py runserver
    
    
 Links API:
