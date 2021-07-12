@@ -1,13 +1,13 @@
 from django.db import models
 
-
+# Model for choise stage status
 class Stage(models.Model):
     stage = models.CharField(max_length=50)
 
     def __str__(self):
         return self.stage
 
-
+# Model Tool object
 class Tool(models.Model):
     name = models.CharField(max_length=150)
     stage = models.ForeignKey(Stage, default=1, on_delete=models.CASCADE)
